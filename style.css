@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    padding: 30px;
+}
+
+.header {
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    border: 1px solid #1F2937;
+}
+
+#logo{
+    font-weight: 700;
+}
+
+.hero{
+    border: 1px solid #1F2937;
+}
+
+.information{
+    height: 30px;
+    border: 1px solid #1F2937;
+}
+
+.quote{
+    height: 30px;
+    border: 1px solid #1F2937;
+}
+
+.footer{
+    height: 30px;
+    border: 1px solid #1F2937;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 16px;
+}
+
+
